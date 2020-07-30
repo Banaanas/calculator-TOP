@@ -55,7 +55,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## About the Project
-Podomoro Timer achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript curriculum</a>.
+Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript curriculum</a>.
 
 <p align="center">
   <a href="https://banaanas.github.io/calculator-TOP/">
@@ -86,7 +86,7 @@ Podomoro Timer achieved as part of <a href="https://www.theodinproject.com/">The
 
 - [Vanilla JavaScript](http://vanilla-js.com/)
 
-ES6 - DOM manipulation
+ES6 - DOM manipulation - Arithmetic Functions
 
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
