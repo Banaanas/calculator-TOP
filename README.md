@@ -71,7 +71,7 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
 - Operation Historic ;
 - Keyboard Support ;
 - No use of eval() function (for security concerns) ;
-- Responsive design.
+- Responsive Design.
 
 <p align="center">
   <a href="https://banaanas.github.io/calculator-TOP/">
