@@ -3,18 +3,21 @@
     "browser": true,
     "es2020": true
   },
-  "extends": ["airbnb-base", "plugin:jest/recommended"],
+  "extends": [
+    "airbnb-base",
+    "plugin:jest/recommended",
+    "plugin:eslint-comments/recommended",
+    "prettier"
+  ],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["jest"],
+  "plugins": [
+    "jest",
+    "jest-formatting"
+  ],
   "rules": {
-    "no-plusplus": [
-      2, {
-        "allowForLoopAfterthoughts": true
-      }
-    ],
     "quotes": [
       1,
       "double",

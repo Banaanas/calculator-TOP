@@ -13,9 +13,12 @@ import "core-js";
 import "regenerator-runtime/runtime";
 
 // Import stylesheets
-import "./styles/index.scss";
 import "./styles/index.css";
 import "./styles/normalize.css";
+
+// Import Images
+import calculatorIconSrc from "./images/calculator-icon.svg";
+
 import clearAllDatas from "./js/clear-all-datas";
 import numbersEventListeners from "./js/event-listeners/numbers-event-listeners";
 import operatorsEventListeners from "./js/event-listeners/operators-event-listeners";
@@ -24,6 +27,9 @@ import deleteEventListener from "./js/event-listeners/delete-event-listener";
 import clearEventListener from "./js/event-listeners/clear-event-listener";
 import keyboardEventListeners from "./js/event-listeners/keyboard-event-listeners";
 import decimalEventListeners from "./js/event-listeners/decimal-event-listener";
+
+const calculatorIcon = document.querySelector("#calculator-icon");
+calculatorIcon.src = calculatorIconSrc;
 
 clearAllDatas();
 numbersEventListeners();

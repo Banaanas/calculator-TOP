@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br/>
 <p align="center">
-    <a href="https://banaanas.github.io/calculator-TOP/">
+    <a href="https://calculator.cyrilo.app/">
         <img src="./src/images/README/project-logo.svg" alt="Project's Logo" width="120" height="120">
     </a>
 </p>
@@ -35,7 +35,7 @@
 
 <p align="center">
     Efficient and convenient Calculator.<br/><br/>
-    <a href="https://banaanas.github.io/calculator-TOP/">:computer: Live Demo :eyes:</a><br/><br/>
+    <a href="https://calculator.cyrilo.app/">:computer: Live Demo :eyes:</a><br/><br/>
 </p>
 
 
@@ -58,7 +58,7 @@
 Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript Curriculum</a>.
 
 <p align="center">
-  <a href="https://banaanas.github.io/calculator-TOP/">
+  <a href="https://calculator.cyrilo.app/">
     <img src="src/images/README/animated-gif-1.gif" alt="Animated Gif" width="455" height="400">
   </a>
 </p>
@@ -74,7 +74,7 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
 - Responsive Design.
 
 <p align="center">
-  <a href="https://banaanas.github.io/calculator-TOP/">
+  <a href="https://calculator.cyrilo.app/">
     <img src="src/images/README/animated-gif-2.gif" alt="Animated Gif" width="240" height="400">
   </a>
 </p>
