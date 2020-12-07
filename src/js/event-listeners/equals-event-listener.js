@@ -194,7 +194,7 @@ const equalsEventListeners = () => {
 
     elementsDOM.historyDisplay.innerHTML = `The result of your operation is ${
       calculatorObj.resultArray[calculatorObj.resultArray.length - 1]
-    }.</br>Please, use the Reset or Delete Buttons.`;
+    }.</br>Please, use the Reset or the Delete Button.`;
 
     // Enables decimal button again if disabled before
     elementsDOM.decimalButton.removeAttribute("disabled");
