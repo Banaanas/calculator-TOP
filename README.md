@@ -31,7 +31,7 @@
     </a>
 </p>
 
-<h1 align="center">:1234: Calculator :symbols:</h1>
+<h1 align="center">🔢 Calculator 🔣</h1>
 
 <p align="center">
     Efficient and convenient Calculator.<br/><br/>
