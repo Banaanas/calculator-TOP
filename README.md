@@ -106,10 +106,6 @@ Grid - Flexbox - Media Queries
 - Node.js
 - NPM - Node Package Manager
 
-```sh
-npm install npm@latest -g
-```
-
 #### Installation
 
 1 - Clone the Project's repository
