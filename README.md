@@ -152,8 +152,6 @@ Project Link: [https://github.com/Banaanas/calculator-TOP](https://github.com/Ba
 ## Acknowledgements
 
 - [The Odin Project](https://www.theodinproject.com/)
-- [GitHub Pages](https://pages.github.com)
-- [Flaticon](https://www.flaticon.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
