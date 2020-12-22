@@ -2,9 +2,8 @@
 *** Useful links for the README.md file's redaction
 *** https://shields.io/ - Shields
 *** https://www.webfx.com/tools/emoji-cheat-sheet/ - Emojis
-*** https://github.com/othneildrew/Best-README-Template - General Inspiration for this file 
+*** https://github.com/othneildrew/Best-README-Template - General Inspiration for this file
 -->
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -17,9 +16,9 @@
 *** https://shields.io/.
 -->
 
-[![Personal Website][personal-website-shield]][personal-website-url][![LinkedIn][linkedin-shield]][linkedIn-url]
+[![Personal Website][personal-website-shield]][personal-website-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 [![MIT License][license-shield]][license-url]
-
 
 <br/>
 <!-- PROJECT LOGO -->
@@ -37,7 +36,6 @@
     <a href="https://calculator.cyrilo.app/">:computer: Live Demo :eyes:</a><br/><br/>
 </p>
 
-
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
@@ -51,10 +49,10 @@
 - [License](#license)
 - [Contact](#contact)
 
-
 <!-- ABOUT THE PROJECT -->
 
 ## About the Project
+
 Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript Curriculum</a>.
 
 <p align="center">
@@ -63,10 +61,10 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
   </a>
 </p>
 
-
 <!-- PRINCIPAL FEATURES -->
 
 #### Principal Features
+
 - Add / Subtract / Multiply / Divide ;
 - Backspace and Clear Functions ;
 - 2 Displays ;
@@ -80,7 +78,6 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
     <img src="./src/images/README/animated-gif-2.gif" alt="Animated Gif" width="240" height="400">
   </a>
 </p>
-
 
 <!-- BUILT WITH -->
 
@@ -100,7 +97,6 @@ Grid - Flexbox - Media Queries
 - [core-js](https://github.com/zloirock/core-js)
 - [ESLint](https://eslint.org/)
 - [stylelint](https://stylelint.io/)
-
 
 <!-- GETTING STARTED -->
 
@@ -126,22 +122,22 @@ npm install
 ```
 
 3 - Development Server
+
 ```sh
 npm run start
 ```
 
 4 - Production build
+
 ```sh
 npm run build
 ```
-
 
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See <a href="./LICENSE">`LICENSE`</a> for more information.
-
 
 <!-- CONTACT -->
 
@@ -151,13 +147,11 @@ Cyrilo - [Personal Website](https://cyrilo.dev) - [Mail](mailto:cyrilo.dev@gmail
 
 Project Link: [https://github.com/Banaanas/calculator-TOP](https://github.com/Banaanas/calculator-TOP)
 
-
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
 
 - [The Odin Project](https://www.theodinproject.com/)
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
