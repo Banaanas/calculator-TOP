@@ -1,9 +1,7 @@
 import { elementsDOM } from "../elements-DOM";
 import { calculatorObj } from "../calculator-object";
 import convertString from "../convert-string";
-import {
-  add, divide, multiply, subtract,
-} from "../calculate-functions";
+import { add, divide, multiply, subtract } from "../calculate-functions";
 import alertMessage from "../alert-message";
 
 // Add Event Listeners to Numbers Buttons
@@ -17,14 +15,14 @@ const equalsEventListeners = () => {
     if (
       calculatorObj.secondaryDisplayArray[
         calculatorObj.secondaryDisplayArray.length - 1
-      ] === "+"
-      || calculatorObj.secondaryDisplayArray[
+      ] === "+" ||
+      calculatorObj.secondaryDisplayArray[
         calculatorObj.secondaryDisplayArray.length - 1
-      ] === "-"
-      || calculatorObj.secondaryDisplayArray[
+      ] === "-" ||
+      calculatorObj.secondaryDisplayArray[
         calculatorObj.secondaryDisplayArray.length - 1
-      ] === "*"
-      || calculatorObj.secondaryDisplayArray[
+      ] === "*" ||
+      calculatorObj.secondaryDisplayArray[
         calculatorObj.secondaryDisplayArray.length - 1
       ] === "/"
     ) {
@@ -39,9 +37,10 @@ const equalsEventListeners = () => {
         // Push a 0 at the beginning of the string and enable, in Delete - Case 2,
         // operations beginning with a + or a -
         if (
-          calculatorObj.calculationArray[0] === "+"
-          || calculatorObj.calculationArray[0] === "-"
-        ) calculatorObj.calculationArray.unshift(0);
+          calculatorObj.calculationArray[0] === "+" ||
+          calculatorObj.calculationArray[0] === "-"
+        )
+          calculatorObj.calculationArray.unshift(0);
         // Concatenate numbers in calculatorObj.calculationArray
         // ( "0","-","1","8","+","7","2" becomes "0","-","18","+","72")
         // and convert them from string to array values
@@ -69,8 +68,8 @@ const equalsEventListeners = () => {
       // (High priority - Respects the operators precedence rule)
       // Stop when there is no * or * inside the calculatorObj.calculationArray
       while (
-        calculatorObj.calculationArray.includes("*")
-        || calculatorObj.calculationArray.includes("/")
+        calculatorObj.calculationArray.includes("*") ||
+        calculatorObj.calculationArray.includes("/")
       ) {
         for (
           let index = 0;
@@ -116,8 +115,8 @@ const equalsEventListeners = () => {
       // Looks for addition or subtraction and makes the operation (Lower priority)
       // Stops when there is no + or - inside the calculatorObj.calculationArray
       while (
-        calculatorObj.calculationArray.includes("+")
-        || calculatorObj.calculationArray.includes("-")
+        calculatorObj.calculationArray.includes("+") ||
+        calculatorObj.calculationArray.includes("-")
       ) {
         for (
           let index = 0;

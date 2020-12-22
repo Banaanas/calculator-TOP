@@ -10,17 +10,21 @@ const convertString = () => {
     n += 1;
 
     // eslint-disable-next-line no-plusplus
-    for (let index = 0; index < calculatorObj.calculationArray.length; index++) {
+    for (
+      let index = 0;
+      index < calculatorObj.calculationArray.length;
+      index++
+    ) {
       if (
-        calculatorObj.calculationArray[index] !== "+"
-                && calculatorObj.calculationArray[index + 1] !== "+"
-                && calculatorObj.calculationArray[index] !== "-"
-                && calculatorObj.calculationArray[index + 1] !== "-"
-                && calculatorObj.calculationArray[index] !== "*"
-                && calculatorObj.calculationArray[index + 1] !== "*"
-                && calculatorObj.calculationArray[index] !== "/"
-                && calculatorObj.calculationArray[index + 1] !== "/"
-                && calculatorObj.calculationArray[index + 1] !== undefined
+        calculatorObj.calculationArray[index] !== "+" &&
+        calculatorObj.calculationArray[index + 1] !== "+" &&
+        calculatorObj.calculationArray[index] !== "-" &&
+        calculatorObj.calculationArray[index + 1] !== "-" &&
+        calculatorObj.calculationArray[index] !== "*" &&
+        calculatorObj.calculationArray[index + 1] !== "*" &&
+        calculatorObj.calculationArray[index] !== "/" &&
+        calculatorObj.calculationArray[index + 1] !== "/" &&
+        calculatorObj.calculationArray[index + 1] !== undefined
       ) {
         const result = calculatorObj.calculationArray[index].concat(
           calculatorObj.calculationArray[index + 1],

@@ -52,7 +52,8 @@ const deleteEventListener = () => {
     elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
       "",
     );
-    elementsDOM.secondaryDisplay.textContent = elementsDOM.historyDisplay.textContent;
+    elementsDOM.secondaryDisplay.textContent =
+      elementsDOM.historyDisplay.textContent;
 
     // Display last concatenated number (which is still a string)
     // Concatenate numbers in calculatorObj.calculationArray
@@ -60,7 +61,8 @@ const deleteEventListener = () => {
     // but they still are string values
     checkDecimal();
     // eslint-disable-next-line max-len
-    elementsDOM.calculatorDisplay.textContent = calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1];
+    elementsDOM.calculatorDisplay.textContent =
+      calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1];
 
     // Enable / Disable Decimal Button when the last concatenated number already a
     // decimal or is an operator
@@ -68,13 +70,21 @@ const deleteEventListener = () => {
       // Only if calculatorObj.calculationArray is not empty
       // Enables decimal button if element is an integer && is not an operator
       if (
-        calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1].includes(
-          ".",
-        )
-          || calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1] === "+"
-          || calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1] === "-"
-          || calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1] === "*"
-          || calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1] === "/"
+        calculatorObj.calculationArray[
+          calculatorObj.calculationArray.length - 1
+        ].includes(".") ||
+        calculatorObj.calculationArray[
+          calculatorObj.calculationArray.length - 1
+        ] === "+" ||
+        calculatorObj.calculationArray[
+          calculatorObj.calculationArray.length - 1
+        ] === "-" ||
+        calculatorObj.calculationArray[
+          calculatorObj.calculationArray.length - 1
+        ] === "*" ||
+        calculatorObj.calculationArray[
+          calculatorObj.calculationArray.length - 1
+        ] === "/"
       ) {
         elementsDOM.decimalButton.disabled = true;
       } else {
@@ -86,16 +96,16 @@ const deleteEventListener = () => {
     if (
       calculatorObj.secondaryDisplayArray[
         calculatorObj.secondaryDisplayArray.length - 1
-      ] === "+"
-        || calculatorObj.secondaryDisplayArray[
-          calculatorObj.secondaryDisplayArray.length - 1
-        ] === "-"
-        || calculatorObj.secondaryDisplayArray[
-          calculatorObj.calculationArray.length - 1
-        ] === "*"
-        || calculatorObj.secondaryDisplayArray[
-          calculatorObj.secondaryDisplayArray.length - 1
-        ] === "/"
+      ] === "+" ||
+      calculatorObj.secondaryDisplayArray[
+        calculatorObj.secondaryDisplayArray.length - 1
+      ] === "-" ||
+      calculatorObj.secondaryDisplayArray[
+        calculatorObj.calculationArray.length - 1
+      ] === "*" ||
+      calculatorObj.secondaryDisplayArray[
+        calculatorObj.secondaryDisplayArray.length - 1
+      ] === "/"
     ) {
       // Disable operators buttons ONLY if last entry is NOT an operator
       elementsDOM.operatorsButtons.forEach((item, index) => {

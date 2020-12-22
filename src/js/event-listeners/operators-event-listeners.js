@@ -25,7 +25,8 @@ const operatorsEventListeners = () => {
         elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
           "",
         );
-        elementsDOM.historyDisplay.textContent = elementsDOM.secondaryDisplay.textContent;
+        elementsDOM.historyDisplay.textContent =
+          elementsDOM.secondaryDisplay.textContent;
 
         return;
       }
@@ -44,12 +45,14 @@ const operatorsEventListeners = () => {
       elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
         "",
       );
-      elementsDOM.historyDisplay.textContent = elementsDOM.secondaryDisplay.textContent;
+      elementsDOM.historyDisplay.textContent =
+        elementsDOM.secondaryDisplay.textContent;
 
       // eslint-disable-next-line max-len
       // If number of characters in the secondary display > 47, it displays a message on the secondary displays
       if (calculatorObj.secondaryDisplayArray.length > 47) {
-        elementsDOM.secondaryDisplay.textContent = "A bit too long for my display (and my robot brain) !";
+        elementsDOM.secondaryDisplay.textContent =
+          "A bit too long for my display (and my robot brain) !";
         elementsDOM.secondaryDisplay.style.textAlign = "center";
         // The user can still look at the history displays, which numbers limit is higher
         elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(

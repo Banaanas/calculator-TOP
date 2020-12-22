@@ -24,7 +24,8 @@ const numbersEventListeners = () => {
           elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
             "",
           );
-          elementsDOM.historyDisplay.textContent = elementsDOM.secondaryDisplay.textContent;
+          elementsDOM.historyDisplay.textContent =
+            elementsDOM.secondaryDisplay.textContent;
 
           // Enable operators buttons again if disabled before
           // eslint-disable-next-line no-shadow
@@ -39,9 +40,14 @@ const numbersEventListeners = () => {
 
           // Display last concatenated number
           // eslint-disable-next-line max-len
-          elementsDOM.calculatorDisplay.textContent = calculatorObj.calculationArray[calculatorObj.calculationArray.length - 1];
+          elementsDOM.calculatorDisplay.textContent =
+            calculatorObj.calculationArray[
+              calculatorObj.calculationArray.length - 1
+            ];
           //
-          if (elementsDOM.calculatorDisplay.textContent.includes(".") === false) {
+          if (
+            elementsDOM.calculatorDisplay.textContent.includes(".") === false
+          ) {
             // Check if the displayed number is a already a decimal, and enable / disable it
             elementsDOM.decimalButton.removeAttribute("disabled");
           } else {
@@ -71,12 +77,14 @@ const numbersEventListeners = () => {
         elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
           "",
         );
-        elementsDOM.historyDisplay.textContent = elementsDOM.secondaryDisplay.textContent;
+        elementsDOM.historyDisplay.textContent =
+          elementsDOM.secondaryDisplay.textContent;
 
         // eslint-disable-next-line max-len
         // If number of characters in the secondary display > 46, display message on the secondary display
         if (calculatorObj.secondaryDisplayArray.length > 46) {
-          elementsDOM.secondaryDisplay.textContent = "Take a look at the Historic";
+          elementsDOM.secondaryDisplay.textContent =
+            "Take a look at the Historic";
           elementsDOM.secondaryDisplay.style.textAlign = "center";
           // The user can still look at the history displays, which numbers limit is higher
           elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
