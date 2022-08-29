@@ -43,15 +43,13 @@ const deleteEventListener = () => {
 
     // Delete last entry from the calculator display
     calculatorObj.calculatorDisplayArray.pop();
-    elementsDOM.calculatorDisplay.textContent = calculatorObj.calculatorDisplayArray.join(
-      "",
-    );
+    elementsDOM.calculatorDisplay.textContent =
+      calculatorObj.calculatorDisplayArray.join("");
 
     // Delete last entry from the secondary and history displays
     calculatorObj.secondaryDisplayArray.pop();
-    elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-      "",
-    );
+    elementsDOM.historyDisplay.textContent =
+      calculatorObj.secondaryDisplayArray.join("");
     elementsDOM.secondaryDisplay.textContent =
       elementsDOM.historyDisplay.textContent;
 

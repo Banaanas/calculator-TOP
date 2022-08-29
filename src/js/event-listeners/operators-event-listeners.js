@@ -22,9 +22,8 @@ const operatorsEventListeners = () => {
 
         // Operator taped/clicked to secondary and history displays
         calculatorObj.secondaryDisplayArray.push(event.target.value);
-        elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-          "",
-        );
+        elementsDOM.secondaryDisplay.textContent =
+          calculatorObj.secondaryDisplayArray.join("");
         elementsDOM.historyDisplay.textContent =
           elementsDOM.secondaryDisplay.textContent;
 
@@ -42,9 +41,8 @@ const operatorsEventListeners = () => {
       calculatorObj.historyDisplayArray.push(event.target.value);
       // Operator taped/clicked to secondary and history displays
       calculatorObj.secondaryDisplayArray.push(event.target.value);
-      elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-        "",
-      );
+      elementsDOM.secondaryDisplay.textContent =
+        calculatorObj.secondaryDisplayArray.join("");
       elementsDOM.historyDisplay.textContent =
         elementsDOM.secondaryDisplay.textContent;
 
@@ -55,9 +53,8 @@ const operatorsEventListeners = () => {
           "A bit too long for my display (and my robot brain) !";
         elementsDOM.secondaryDisplay.style.textAlign = "center";
         // The user can still look at the history displays, which numbers limit is higher
-        elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-          "",
-        );
+        elementsDOM.historyDisplay.textContent =
+          calculatorObj.secondaryDisplayArray.join("");
       }
     });
   });

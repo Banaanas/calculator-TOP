@@ -77,9 +77,8 @@ const equalsEventListeners = () => {
           index++
         ) {
           if (calculatorObj.calculationArray[index] === "*") {
-            const calcIndexMultiplication = calculatorObj.calculationArray.indexOf(
-              "*",
-            );
+            const calcIndexMultiplication =
+              calculatorObj.calculationArray.indexOf("*");
             const resultMultiplication = multiply(
               calculatorObj.calculationArray[calcIndexMultiplication - 1],
               calculatorObj.calculationArray[calcIndexMultiplication + 1],
@@ -93,9 +92,8 @@ const equalsEventListeners = () => {
 
             break; // if the operator * is found, it breaks (stops) the loop and loops again
           } else if (calculatorObj.calculationArray[index] === "/") {
-            const calcIndexDivision = calculatorObj.calculationArray.indexOf(
-              "/",
-            );
+            const calcIndexDivision =
+              calculatorObj.calculationArray.indexOf("/");
             // eslint-disable-next-line max-len
             const resultDivision = divide(
               calculatorObj.calculationArray[calcIndexDivision - 1],
@@ -124,9 +122,8 @@ const equalsEventListeners = () => {
           index++
         ) {
           if (calculatorObj.calculationArray[index] === "+") {
-            const calcIndexAddition = calculatorObj.calculationArray.indexOf(
-              "+",
-            );
+            const calcIndexAddition =
+              calculatorObj.calculationArray.indexOf("+");
             // eslint-disable-next-line max-len
             const resultAddition = add(
               calculatorObj.calculationArray[index - 1],
@@ -139,9 +136,8 @@ const equalsEventListeners = () => {
             );
             break;
           } else if (calculatorObj.calculationArray[index] === "-") {
-            const calcIndexSubtraction = calculatorObj.calculationArray.indexOf(
-              "-",
-            );
+            const calcIndexSubtraction =
+              calculatorObj.calculationArray.indexOf("-");
             // eslint-disable-next-line max-len
             const resultSubtraction = subtract(
               calculatorObj.calculationArray[index - 1],
