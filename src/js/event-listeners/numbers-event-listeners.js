@@ -21,9 +21,8 @@ const numbersEventListeners = () => {
 
           // Number taped/clicked to secondary and history displays
           calculatorObj.secondaryDisplayArray.push(event.target.value);
-          elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-            "",
-          );
+          elementsDOM.secondaryDisplay.textContent =
+            calculatorObj.secondaryDisplayArray.join("");
           elementsDOM.historyDisplay.textContent =
             elementsDOM.secondaryDisplay.textContent;
 
@@ -66,17 +65,15 @@ const numbersEventListeners = () => {
         // Number taped/clicked to calculator display
         // Update calculatorObj.calculatorDisplayArray
         calculatorObj.calculatorDisplayArray.push(event.target.value);
-        elementsDOM.calculatorDisplay.textContent = calculatorObj.calculatorDisplayArray.join(
-          "",
-        );
+        elementsDOM.calculatorDisplay.textContent =
+          calculatorObj.calculatorDisplayArray.join("");
 
         calculatorObj.historyDisplayArray.push(event.target.value);
 
         // Number taped/clicked to secondary and history displays
         calculatorObj.secondaryDisplayArray.push(event.target.value);
-        elementsDOM.secondaryDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-          "",
-        );
+        elementsDOM.secondaryDisplay.textContent =
+          calculatorObj.secondaryDisplayArray.join("");
         elementsDOM.historyDisplay.textContent =
           elementsDOM.secondaryDisplay.textContent;
 
@@ -87,9 +84,8 @@ const numbersEventListeners = () => {
             "Take a look at the Historic";
           elementsDOM.secondaryDisplay.style.textAlign = "center";
           // The user can still look at the history displays, which numbers limit is higher
-          elementsDOM.historyDisplay.textContent = calculatorObj.secondaryDisplayArray.join(
-            "",
-          );
+          elementsDOM.historyDisplay.textContent =
+            calculatorObj.secondaryDisplayArray.join("");
         }
 
         // Check if the displayed number is a already a decimal, and enable / disable it

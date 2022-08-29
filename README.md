@@ -89,19 +89,9 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
 #### Built With
 
 - [Vanilla JavaScript](http://vanilla-js.com/)
-
-ES6 - DOM manipulation - Arithmetic Functions
-
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
-
-Grid - Flexbox - Media Queries
-
 - [Webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [core-js](https://github.com/zloirock/core-js)
-- [ESLint](https://eslint.org/)
-- [stylelint](https://stylelint.io/)
 
 <!-- GETTING STARTED -->
 

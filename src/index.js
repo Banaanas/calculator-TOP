@@ -8,10 +8,6 @@
      - Fonction Delete
      - Historique des Calculs */
 
-// Import core.js
-import "core-js";
-import "regenerator-runtime/runtime";
-
 // Import stylesheets
 import "./styles/index.css";
 import "./styles/normalize.css";
