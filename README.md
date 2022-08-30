@@ -84,14 +84,16 @@ Calculator achieved as part of <a href="https://www.theodinproject.com/">The Odi
   </a>
 </p>
 
+
 <!-- BUILT WITH -->
 
 #### Built With
 
-- [Vanilla JavaScript](http://vanilla-js.com/)
-- [HTML5](https://www.w3.org/html/)
-- [CSS3](https://www.w3.org/Style/CSS/Overview.html)
+- [JavaScript](http://vanilla-js.com/)
+- [HTML](https://www.w3.org/html/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.html)
 - [Webpack](https://webpack.js.org/)
+
 
 <!-- GETTING STARTED -->
 
